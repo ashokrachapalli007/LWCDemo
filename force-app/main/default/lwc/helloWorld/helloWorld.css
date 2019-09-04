@@ -1,0 +1,10 @@
+.Greetings-class{
+    color: blue;
+    background-color: green;
+}
+div{
+    border: 3px solid red;
+}
+:host{
+color: aqua;
+}

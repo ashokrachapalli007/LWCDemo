@@ -1,0 +1,12 @@
+<template>
+    <div>
+    <lightning-card title="Search Your Car">
+        <c-car-search-form oncartypeselect={carTypeChangeHandler}></c-car-search-form>
+    </lightning-card>
+</div>
+<div class="slds-m-vertical_small">
+    <lightning-card title="Matching Cars">
+        <c-car-search-result ctcar-type-id={carTypeId}></c-car-search-result>
+    </lightning-card>
+</div>
+</template>

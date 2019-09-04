@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/carSearch": [
+                "carSearch/carSearch.js"
+            ],
+            "c/carSearchForm": [
+                "carSearchForm/carSearchForm.js"
+            ],
+            "c/carSearchResult": [
+                "carSearchResult/carSearchResult.js"
+            ],
+            "c/carTile": [
+                "carTile/carTile.js"
+            ],
+            "c/conditionalRenderingex": [
+                "conditionalRenderingex/conditionalRenderingex.js"
+            ],
+            "c/errorPanel": [
+                "errorPanel/errorPanel.js"
+            ],
+            "c/helloWorld": [
+                "helloWorld/helloWorld.js"
+            ],
+            "c/sampleCalc": [
+                "sampleCalc/sampleCalc.js"
+            ],
+            "c/wireFunction": [
+                "wireFunction/wireFunction.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}

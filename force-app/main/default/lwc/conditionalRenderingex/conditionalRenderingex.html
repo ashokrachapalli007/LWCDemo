@@ -1,0 +1,22 @@
+<template>
+ 
+    <lightning-input type='Checkbox'
+     label='Show Content' onchange={CheckboxHandler}></lightning-input>
+<template if:true={displaydiv}>
+    <div>I'm here</div>
+</template>
+<template if:false={displaydiv}>
+<div>I'm false</div>
+</template>
+
+<template for:each={citylist} for:item="city">
+<p key={city}> {city} </p>
+</template>
+<template iterator:it={citylist}>
+<p key={it.value}>{it.value}</p>
+
+</template>
+
+<div> kvnkvnkdvn </div>
+
+</template>
